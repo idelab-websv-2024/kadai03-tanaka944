@@ -8,11 +8,12 @@
     <script type="text/javascript">
             function check()
             {
-                alert( document.getElementById('test') );
+                alert( document.getElementById('test').innerHTML );
+                document.getElementById('test').innerHTML = '<h1>テスト</h1>';
             }
 	        function updateMessage(mes)
 	        {
-                document.getElementById('').innerHTML = mes;
+                document.getElementById('mes').innerHTML = mes;
 	        }
     </script>
   </head>
